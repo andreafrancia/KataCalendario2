@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CalendarViewController.h
 //  KataCalendario2
 //
 //  Created by Andrea Francia on 8/9/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CalendarViewController : UITableViewController
 
 @end

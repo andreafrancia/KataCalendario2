@@ -16,13 +16,13 @@
 		65467ACC17B4FB8D0011EC5C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 65467ACB17B4FB8D0011EC5C /* Default.png */; };
 		65467ACE17B4FB8D0011EC5C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65467ACD17B4FB8D0011EC5C /* Default@2x.png */; };
 		65467AD017B4FB8D0011EC5C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65467ACF17B4FB8D0011EC5C /* Default-568h@2x.png */; };
-		65467AD317B4FB8D0011EC5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65467AD217B4FB8D0011EC5C /* ViewController.m */; };
-		65467AD617B4FB8D0011EC5C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65467AD417B4FB8D0011EC5C /* ViewController.xib */; };
 		65467ADE17B4FB8D0011EC5C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65467ADD17B4FB8D0011EC5C /* SenTestingKit.framework */; };
 		65467ADF17B4FB8D0011EC5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65467AB917B4FB8C0011EC5C /* UIKit.framework */; };
 		65467AE017B4FB8D0011EC5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65467ABB17B4FB8C0011EC5C /* Foundation.framework */; };
 		65467AE817B4FB8E0011EC5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65467AE617B4FB8E0011EC5C /* InfoPlist.strings */; };
 		65467AEB17B4FB8E0011EC5C /* KataCalendario2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65467AEA17B4FB8E0011EC5C /* KataCalendario2Tests.m */; };
+		65467AFC17B4FC300011EC5C /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65467AFA17B4FC300011EC5C /* CalendarViewController.m */; };
+		65467AFD17B4FC300011EC5C /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65467AFB17B4FC300011EC5C /* CalendarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,15 +49,15 @@
 		65467ACB17B4FB8D0011EC5C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		65467ACD17B4FB8D0011EC5C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		65467ACF17B4FB8D0011EC5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		65467AD117B4FB8D0011EC5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		65467AD217B4FB8D0011EC5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		65467AD517B4FB8D0011EC5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		65467ADC17B4FB8D0011EC5C /* KataCalendario2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataCalendario2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65467ADD17B4FB8D0011EC5C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		65467AE517B4FB8E0011EC5C /* KataCalendario2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KataCalendario2Tests-Info.plist"; sourceTree = "<group>"; };
 		65467AE717B4FB8E0011EC5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65467AE917B4FB8E0011EC5C /* KataCalendario2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KataCalendario2Tests.h; sourceTree = "<group>"; };
 		65467AEA17B4FB8E0011EC5C /* KataCalendario2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KataCalendario2Tests.m; sourceTree = "<group>"; };
+		65467AF917B4FC300011EC5C /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		65467AFA17B4FC300011EC5C /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		65467AFB17B4FC300011EC5C /* CalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +117,11 @@
 		65467ABF17B4FB8C0011EC5C /* KataCalendario2 */ = {
 			isa = PBXGroup;
 			children = (
+				65467AF917B4FC300011EC5C /* CalendarViewController.h */,
+				65467AFA17B4FC300011EC5C /* CalendarViewController.m */,
+				65467AFB17B4FC300011EC5C /* CalendarViewController.xib */,
 				65467AC817B4FB8C0011EC5C /* AppDelegate.h */,
 				65467AC917B4FB8D0011EC5C /* AppDelegate.m */,
-				65467AD117B4FB8D0011EC5C /* ViewController.h */,
-				65467AD217B4FB8D0011EC5C /* ViewController.m */,
-				65467AD417B4FB8D0011EC5C /* ViewController.xib */,
 				65467AC017B4FB8C0011EC5C /* Supporting Files */,
 			);
 			path = KataCalendario2;
@@ -235,7 +235,7 @@
 				65467ACC17B4FB8D0011EC5C /* Default.png in Resources */,
 				65467ACE17B4FB8D0011EC5C /* Default@2x.png in Resources */,
 				65467AD017B4FB8D0011EC5C /* Default-568h@2x.png in Resources */,
-				65467AD617B4FB8D0011EC5C /* ViewController.xib in Resources */,
+				65467AFD17B4FC300011EC5C /* CalendarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +272,7 @@
 			files = (
 				65467AC617B4FB8C0011EC5C /* main.m in Sources */,
 				65467ACA17B4FB8D0011EC5C /* AppDelegate.m in Sources */,
-				65467AD317B4FB8D0011EC5C /* ViewController.m in Sources */,
+				65467AFC17B4FC300011EC5C /* CalendarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +301,6 @@
 				65467AC317B4FB8C0011EC5C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		65467AD417B4FB8D0011EC5C /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65467AD517B4FB8D0011EC5C /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 		65467AE617B4FB8E0011EC5C /* InfoPlist.strings */ = {
